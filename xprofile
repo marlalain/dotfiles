@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# swap mouse buttons
+xmod -e "pointer = 3 2 1" &
+# transparency program
+xcompmgr &
+# speed xrate up
+xset r rate 300 50 &
+# rat poison
+unclutter &
+
+# tmux sessions
+tmux new-session -t bg -d		# for usual programs that run on the background

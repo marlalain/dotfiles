@@ -1,0 +1,1 @@
+EXCLUDES="install.sh update.sh lists install_dotfiles.sh rcrc"
