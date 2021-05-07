@@ -1,0 +1,3 @@
+. "$HOME/.xprofile"
+
+exec dwm

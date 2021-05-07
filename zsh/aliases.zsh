@@ -19,6 +19,11 @@ alias lai="ls -lai --color=always"
 alias -s md=vim
 alias -s py=vim
 
+# git
+alias ga="git add ."
+alias gm="git commit ."
+alias gcm="git commit ."
+
 # :)
 alias -g sudo=doas
 
@@ -47,7 +52,7 @@ add_at_end() {
 # copy as sudo and fix ownership
 # usage: # copy file file2
 copy() {
-  doas cp $1 $2
+  doas cp -r $1 $2
   doas chown -R $USER $2
   chgrp $GROUP $2
 }

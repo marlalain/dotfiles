@@ -87,7 +87,7 @@ map \ :CtrlPLine<cr>
 Plugin 'scrooloose/syntastic'
 Plugin 'crusoexia/vim-dracula'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 Plugin 'jingmiao/auto-pairs'
 Plugin 'fisadev/vim-isort'
 Plugin 'davidhalter/jedi-vim'

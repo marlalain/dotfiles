@@ -18,11 +18,11 @@ SAVEHIST=10000000
 HISTFILE=~/.cache/zsh/history
 
 # autotab
-#autoload -U compinit
-#zstyle ':completion:*' menu select
-#zmodload zsh/complist
-#compinit
-#_comp_options+=(globdots)
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)
 
 # ps1
 autoload -U colors && colors
@@ -31,3 +31,6 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 # load other files
 source ~/.zsh/plugins.zsh
 source ~/.zsh/aliases.zsh
+# tmux
+#ZSH_TMUX_AUTOSTART=true
+#source ~/.zsh/tmux.plugin.zsh

@@ -1,0 +1,1 @@
+(stumpwm:set-prefix-key (stumpwm:kbd "M-q"))

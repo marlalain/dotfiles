@@ -1,0 +1,2 @@
+# Very useful for both ratpoison and stumpwm, sets the Windows key to F13 so you can use it as a modifier
+keysym Super_L = F13
