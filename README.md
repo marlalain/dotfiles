@@ -1,5 +1,3 @@
-# @paulo-e's dotfiles
-
 # (WIP) Features:
 
 - `install.sh` script (for Arch/Gentoo)
